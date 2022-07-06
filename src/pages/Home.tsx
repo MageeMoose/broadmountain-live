@@ -1,16 +1,18 @@
 import React from 'react'
+import IconGrind from '../components/navigations/IconGrind'
+import TopBarNav from '../components/navigations/TopBarNav'
 import './Scss/pages.scss'
+
 
 export default function Home() {
   return (
     <div className='wrapper_container'>
-        <div className='topBar'>
-
-        </div>
+        
         <div className='cogAnimation'>
 
         </div>
         <div className='homeContent'>
+            <TopBarNav/>
             <div className='textBox'>
                 <div className='text'>
                 <p>My name is Magnus, I’m tester and hobby developer who always looking to learn something new. 
@@ -21,7 +23,7 @@ export default function Home() {
                 </div>
             </div>
             <div className='gridBar'>
-
+              <IconGrind/>
             </div>
         </div>
     </div>
