@@ -6,12 +6,12 @@ import imageArray from '../constants/imageArray';
 
 export default function IconGrind() {
 
-    let imgArray = imageArray()
+    const  IMG_ARRAY = imageArray()
     var delayTime = 2000;
 
   return (
     <div className='grid_Container'>
-        {imgArray.map(x =>{
+        {IMG_ARRAY.map(x =>{
             delayTime = x.delay
             if(x.isExt){
                 return(<div className='grid_Item'>
